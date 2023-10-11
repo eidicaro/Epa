@@ -8,6 +8,6 @@ function processarNome() {
 
     let divNome = document.getElementById("nomeDiv");
     divNome.classList.add("img")
-    divNome.style.backgroundImage = `url('../imagens/${nome}.png')`;
+    divNome.style.backgroundImage = `url('../fotos/${nome}.png')`;
     console.log(divNome)
 }
