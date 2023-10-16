@@ -123,7 +123,13 @@ body {
     width: 30%;
     border-radius: 15px;
     margin: 8% 0;
+    transition: 0.2s;
 }
+
+.invitation:hover {
+    padding: 5px;
+}
+
 
 .etec-box {
     width: 100%;
@@ -139,6 +145,49 @@ body {
 
 .etec-about {
     width: 45%;
+}
+
+footer {
+    width: 100%;
+    background-color: #0f0f0f;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-icon {
+    width: 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 3% 0 0 0;
+}
+
+.social-icon > a > i {
+    background-color: #fff;
+    color: #0f0f0f;
+    padding: 8px;
+    border-radius: 50%;
+}
+
+.social-icon > a:hover i {
+    background-color: rgb(41, 95, 204);
+}
+
+footer > hr {
+    color: #ddd;
+    width: 99%;
+}
+
+.copyright {
+    background-color: #020202;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /* TEXTOS */
@@ -165,22 +214,75 @@ body {
     font-weight: 400;
 }
 
+footer {
+    width: 100%;
+    background-color: #0f0f0f;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-icon {
+    width: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3% 0 0 0;
+}
+
+.social-icon > a > i {
+    background-color: #fff;
+    color: #0f0f0f;
+    padding: 8px;
+    border-radius: 50%;
+    margin: 0 8px;
+}
+
+.social-icon > a:hover i {
+    background-color: rgb(41, 95, 204);
+    transition: 0.3s ease-in;
+}
+
+footer > hr {
+    color: #ddd;
+    width: 99%;
+}
+
+.copyright {
+    background-color: #020202;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer > h6 {
+    color: #c7c7c7;
+    text-align: center;
+    font-weight: 50;
+    font-size: 17px;
+    margin: 3% 0;
+}
+
 /* search bar */
 #nomeDiv {
-    margin-left: 40vw;
-    margin-top: 5vh;
+    background-color: #0f0f0f;
+    display: flex;
+    align-items: center ;
+    justify-content:  center;
     background-size: cover;
     width: 400px;
     height: 400px;
 }
 
 .pesquisa {
-    margin-top: 12vh;
-    margin-right: 1vw;
-    width: 200px;
+    width: 65%;
     height: 30px;
     border: 2px solid #ccc;
-    border-radius: 15px;
+    border-radius: 30px;
     padding: 5px;
     outline: none;
     background-repeat: no-repeat;
@@ -189,11 +291,16 @@ body {
 }
 
 .botao {
-    margin-top: 12vh;
     background-color: rgb(41, 95, 204);
-    border: none;
+    height: 30px;
+    width: 30px;
     padding: 20px;
-    border-radius: 100px;
+    border: none;
+    border-radius: 50%;
+    margin: 0 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     cursor: pointer;
     transition: 0.4s;
 }
@@ -206,18 +313,29 @@ body {
 }
 
 .img {
-    background-size: 100px;
-}
-
-.search-bar{
-    background-color: #0f0f0f;
-
+    width: 90%;
 }
 
 .search{
+    background-color: #0f0f0f;
+    width: 100%;
+    margin-bottom: 48px;
     display: flex;
-    align-items: center;
     justify-content: center;
+    align-items: center;
+}
+
+.search-bar {
+    background-color: #0f0f0f;
+    width: 640px;
+    height: 640px;
+    padding: 50px;
+    border-radius: 15px;
+    margin: 120px 0 60px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
 }
 
 /* pagina "sobre" */
@@ -229,49 +347,49 @@ body {
     align-items: center;
 }
 .explicacao{
+    background-color: #0f0f0f;
     color: #fff;
     font-size: 15px; 
-    background-color: #0f0f0f;
     width: 100%;
-    margin-top: 60px;   
+    padding: 150px 0;
+    margin: 60px 0 0 0;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding-bottom: 15vh;
 }
 
 .camera{
-    margin-top: 15vh;
     width: 5.82cm;
     height: 5.82cm;
 }
 
-.copyright{
-    margin-top: 25vh;
+.copyright-about{
     max-width: 50%;
     background-color:  rgb(41, 95, 204);
     color: #fff;
     padding: 50px;
-    border-radius: 35px;
-    transition: 0.5s;
+    border-radius: 15px;
+    transition: 0.2s;
 }
-.copyright:hover{
-    transition: 0.5s;
-    padding: 60px;
-    border-radius: 45px;
+
+.copyright-about:hover{
+    transition: 0.2s;
+    padding: 55px;
 }
 
 .project{
-    background-color: #0f0f0f;
-    color: #fff;
+    background-color: #fff;
+    color: #000;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
 .description{
-    max-width: 50%;
     text-align: center;
-    padding-bottom: 10vh;
+    width: 50%;
+    padding: 50px;
+    font-weight: 400;
 }
 
 .footersobre{

@@ -1,59 +1,71 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>EPA 2023</title>
-    
-        <link rel="shortcut icon" href="../imgs/logo.png" type="image/png">
-        <link rel="stylesheet" href="../CSS/style.css">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
-    </head>
 
-    <body>
-        <header class="header-full-site">
-            <div class="icon">
-                <img src="../imgs/logo.png" alt="logo">
-                <h1>EPA 2023 - 1º DS AMS</h1>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EPA 2023</title>
+
+    <link rel="shortcut icon" href="../imgs/logo.png" type="image/png">
+    <link rel="stylesheet" href="../CSS/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+</head>
+
+<body>
+    <header class="header-full-site">
+        <div class="icon">
+            <img src="../imgs/logo.png" alt="logo">
+            <h1>EPA 2023 - 1º DS AMS</h1>
+        </div>
+
+        <nav class="nav-bar-nav">
+            <ul class="nav-bar-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">Dias</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="dia1.html">Dia 1</a></li>
+                        <li><a href="dia2.html">Dia 2</a></li>
+                        <li><a href="dia3.html">Dia 3</a></li>
+                    </ul>
+                </li>
+                <li><a href="sobre.html">Sobre</a></li>
+            </ul>
+        </nav>
+
+    </header>
+    <main class="container">
+        <div class="search-bar">
+            <div class="search">
+                <!-- Campo de entrada de texto onde o usuário insere seu nome completo -->
+                <input type="text" class="pesquisa" id="nome" placeholder="Insira seu nome completo">
+                <!--botão que chama a imagem (chama a função processarNome())-->
+                <button class="botao" onclick="processarNome()"><i class="fas fa-search"></i></button>
+                <!--div aonde a imagem será exibida-->
             </div>
+            <br><br>
+            <div id="nomeDiv"></div>
+            <script src="../main/main.js"></script>
+        </div>
+    </main>
+    <footer>
+        <div class="social-icon">
+            <a href="https://www.instagram.com/suapagina" target="_blank">
+                <i class="fab fa-instagram"></i>
+            </a>
+            <a href="https://www.twitter.com/suapagina" target="_blank">
+                <i class="fab fa-whatsapp"></i>
+            </a>
+            <br>
+        </div>
+        <h6>Instagram • Suporte<br>(15) 3251-4242</h6>
+        <div class="copyright">
+            <p>&copy; 2023 1º DS Mtec AMS</p>
+        </div>
+    </footer>
+</body>
 
-            <nav class="nav-bar-nav">
-                <ul class="nav-bar-menu">
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="#">Dias</a>
-                        <ul class="dropdown-menu">
-                            <li><a href="dia1.html">Dia 1</a></li>
-                            <li><a href="dia2.html">Dia 2</a></li>
-                            <li><a href="dia3.html">Dia 3</a></li>
-                        </ul>
-                    </li>
-                    <li><a href="sobre.html">Sobre</a></li>
-                </ul>
-            </nav>
-
-        </header>
-        <main class="days">
-
-            <div class="search-bar">
-
-                <div class="search">
-                
-                    <!-- Campo de entrada de texto onde o usuário insere seu nome completo -->
-                    <input type="text" class="pesquisa" id="nome" placeholder="Insira seu nome completo">
-                    <!--botão que chama a imagem (chama a função processarNome())-->
-                    <button class="botao" onclick="processarNome()"></button>
-                    <!--div aonde a imagem será exibida-->
-                    
-                </div>
-                <div id="nomeDiv"></div>
-                
-                <script src="../main/main.js"></script>
-            </div>
-        </main>
-
-        <footer class="footersobre"><p>&copy;1° DS- MTec AMS</p></footer>
-    </body>
 
 </html>
