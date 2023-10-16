@@ -167,12 +167,11 @@ body {
 
 /* search bar */
 #nomeDiv {
-    display: flex;
-    align-items: center ;
-    justify-content:  center;
+    margin-left: 40vw;
+    margin-top: 5vh;
     background-size: cover;
-    width: 500px;
-    height: 500px;
+    width: 400px;
+    height: 400px;
 }
 
 .pesquisa {
@@ -285,5 +284,9 @@ body {
 
 .days{
     background-color: #0f0f0f;
+}
+
+.fotos{
+    text-align: center;
 }
 
