@@ -93,7 +93,7 @@ body {
 .dropdown-menu > li > a {
     color: #000;
     text-decoration: none;
-    padding: 10px;
+    padding: 10px 15px;
     border-radius: 4px;
 }
 
@@ -140,11 +140,63 @@ body {
 }
 
 .etec-box > img {
-    width: 25%;
+    width: 35%;
 }
 
 .etec-about {
     width: 45%;
+}
+
+.card-about {
+    background-color: rgb(30, 65, 134);
+    width: 100%;
+    margin: 0 0 40px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.all-cards {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-968px {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.card {
+    width: 22.5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card > figure {
+    background-color: #fff;
+    border-radius: 5px;
+    margin: 0 0 50px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: #15234ba1 3px 3px 3px ;
+}
+
+.card > figure:hover {
+    background-color: #ccc;
+}
+
+.card > figure > img {
+    width: 100%;
+    border-radius: 5px;
 }
 
 footer {
@@ -214,6 +266,15 @@ footer > hr {
     font-weight: 400;
 }
 
+.card-about > h1 {
+    color: #fff;
+    margin: 7% 0 3.5% 0;
+}
+
+.card > figure > p {
+    padding: 10px 10px 45px 10px;
+}
+
 footer {
     width: 100%;
     background-color: #0f0f0f;
@@ -242,12 +303,7 @@ footer {
 
 .social-icon > a:hover i {
     background-color: rgb(41, 95, 204);
-    transition: 0.3s ease-in;
-}
-
-footer > hr {
-    color: #ddd;
-    width: 99%;
+    transition: 0.175s ease-in;
 }
 
 .copyright {
