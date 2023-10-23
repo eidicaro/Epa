@@ -33,9 +33,32 @@
                 </li>
                 <li><a href="sobre.html">Sobre</a></li>
             </ul>
-        </nav>
 
+            <!-- Menu responsivo -->
+            <div class="mobile-menu-icon">
+                <button onclick="menuShow()">
+                    <div class="line1"></div>
+                    <div class="line2"></div>
+                    <div class="line3"></div>
+                </button>
+            </div>
+        </nav>
     </header>
+
+    <div class="mobile-menu">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#">Dias</a>
+                <ul class="dropdown-menu-mobile">
+                    <li><a href="dia1.html">Dia 1</a></li>
+                    <li><a href="dia2.html">Dia 2</a></li>
+                    <li><a href="dia3.html">Dia 3</a></li>
+                </ul>
+            </li>
+            <li style="padding-bottom: 15px;"><a href="sobre.html">Sobre</a></li>
+        </ul>
+    </div>
+    
     <main class="container">
         <div class="search-bar">
             <div class="search">
@@ -53,7 +76,7 @@
     </main>
     <footer>
         <div class="social-icon">
-            <a href="https://www.instagram.com/etecsg/" target="_blank">
+            <a href="https://www.instagram.com/suapagina" target="_blank">
                 <i class="fab fa-instagram"></i>
             </a>
             <a href="https://www.twitter.com/suapagina" target="_blank">
