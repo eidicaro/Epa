@@ -204,6 +204,7 @@ body {
 }
 
 .card > figure {
+    color: #fff;
     background-color: #fff;
     border-radius: 5px;
     margin: 0 0 50px 0;
@@ -215,6 +216,7 @@ body {
 }
 
 .card > figure:hover {
+    color: #ccc;
     background-color: #ccc;
 }
 
