@@ -357,7 +357,7 @@ footer > h6 {
     justify-content:  center;
     background-size: cover;
     width: 400px;
-    height: 400px;
+    height: 300px;
 }
 
 .pesquisa {
@@ -556,7 +556,7 @@ footer > h6 {
 
     #nomeDiv {
         width: 300px;
-        height: 300px;
+        height: 225px;
     }
 
     .search-bar {
@@ -652,7 +652,7 @@ footer > h6 {
 
     #nomeDiv {
         width: 250px;
-        height: 250px;
+        height: 187.5px;
     }
 
     .search-bar {
